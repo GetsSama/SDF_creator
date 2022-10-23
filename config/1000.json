@@ -1,1 +1,1 @@
-{"input": "C:\\Users\\Zh_Nikolay\\Desktop\\peptides\\pept_15.csv", "output": "out", "column": "PEPTIDE", "charged": true, "alphabet": "protein", "threads": 4, "separator": ",", "filename": "peptides_sdf"}
+{"input": "source_data/negative_sample/neg_sam_15.csv", "output": "sdf_negative_result", "column": "PEPTIDE", "charged": true, "alphabet": "protein", "threads": 4, "separator": ",", "filename": "peptides_sdf"}
