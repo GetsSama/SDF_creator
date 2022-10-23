@@ -112,12 +112,12 @@ def write(proc, partition, output, sequence_column, isCharged, alphabet, output_
         sys.exit(1)
 
 
-def start_fun(config):
+def start_fun(configuration):
     start_time = time.time()
 
-    if os.path.exists(config):
+    if os.path.exists(configuration):
         try:
-            with open(config,"r") as cfg:
+            with open(configuration, "r") as cfg:
 
                 '''
                     Parsing arguments
